@@ -24,7 +24,7 @@ async function main() {
     const args = process.argv.slice(2);
     const inputPath = args[0]
       ? path.resolve(args[0])
-      : path.resolve(__dirname, "../samples/invoice_3.jpg");
+      : path.resolve(__dirname, "../samples/invoice_3.pdf");
     console.log(`\n📂 Processing file: ${inputPath}`);
 
   
